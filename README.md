@@ -52,15 +52,15 @@ d. The green box should be centered inside the red box
 e. The red and blue boxes should not overlap
 
 On github, both html and css file
-`<body>
+<b><body>
     <div class="red"> </div>
     <br>
     <div class="green"> </div>
     <div class="blue"> </div>
 
-</body>`
+</body><b>
 
-`.red{
+<b>.red{
     width: 200px;
     height: 200px;
     background-color: red;
@@ -84,7 +84,7 @@ On github, both html and css file
     margin-bottom: 50px;
     margin-left: 50px;
     margin-top: 30px;
-}`
+}<b>
 
 
 #2. You have started an analytics company with the domain “hashtag­analytics.com”. You provide this tracking pixel for your customers to place on their websites. By summing the number of times the pixel was loaded, you calculate the number of visitors to each site.
@@ -119,7 +119,7 @@ Most likely the company can track the user's entire movement on the site. With e
 ­ ### If no, do nothing
 ###** the image is “viewable” if any part of it appears on the screen (so if the image is entirely above or below the viewport, then the user cannot see it, so it is not considered “viewable”)
 
-`window.setInterval(function(){
+```window.setInterval(function(){
     var windowTop = $(window).scrollTop();
   var windowBottom = windowTop + window.innerHeight;
   var imgTop = $('#myimage').position().top;
@@ -127,7 +127,7 @@ Most likely the company can track the user's entire movement on the site. With e
   if(windowTop < imgTop && imgTop < windowBottom || windowTop < imgBottom && imgBottom < windowBottom){
     console.log('visible');
   }
-},2000);`
+},2000);```
 
 
 
