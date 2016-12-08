@@ -127,7 +127,7 @@ Most likely the company can track the user's entire movement on the site. With e
   if(windowTop < imgTop && imgTop < windowBottom || windowTop < imgBottom && imgBottom < windowBottom){
     console.log('visible');
   }
-},2000);```
+},2000);
 
 
 
