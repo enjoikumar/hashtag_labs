@@ -22,7 +22,8 @@
 
 
 ## 6. What is the difference between these 3 CSS rules?
-div {background:#fff;} #div {background:#fff;} .div {background:#fff;}
+```div {background:#fff;} #div {background:#fff;} .div {background:#fff;} ```
+
 ### div{background:#fff;} means that every div will have the background be #fff. #div {background:#fff;} means that every element with an id of div will have the background become #fff. .div {background:#fff} means that every element with a class of div will have the background become #fff 
 
 ## 7. What is the difference between these 2 uses of the <script> tag?
