@@ -35,11 +35,9 @@
 
 ## 8. What is the difference between these two javascript snippets?
 
-`var x = function() { return 1+1;
-}();
+`var x = function() { return 1+1;}();`
 
-var y = function() { return 1+1;
-};`
+`var y = function() { return 1+1;};`
 
 ### x is a function where you can write x and get the answer, whileas for the y function it would need to be written as `y();` to get the answer
 
