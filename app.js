@@ -1,10 +1,9 @@
-// var myVar = setInterval(function(){ setColor() }, 300);
-
-// function setColor() {
-//     var x = document.body;
-//     x.style.backgroundColor = x.style.backgroundColor == "yellow" ? "pink" : "yellow";
-// }
-
-// function stopColor() {
-//     clearInterval(myVar);
-// }
+window.setInterval(function(){
+	var windowTop = $(window).scrollTop();
+  var windowBottom = windowTop + window.innerHeight;
+  var imgTop = $('#myimage').position().top;
+  var imgBottom = imgTop + $('#myImage').height(); 
+  if(windowTop < imgTop && imgTop < windowBottom || windowTop < imgBottom && imgBottom < windowBottom){
+    console.log('visible');
+  }
+},2000);
