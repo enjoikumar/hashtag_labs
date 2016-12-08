@@ -22,12 +22,38 @@
 
 
 ## 6. What is the difference between these 3 CSS rules?
-```div {background:#fff;} #div {background:#fff;} .div {background:#fff;} ```
+`div {background:#fff;} #div {background:#fff;} .div {background:#fff;}##`
 
-### div{background:#fff;} means that every div will have the background be #fff. #div {background:#fff;} means that every element with an id of div will have the background become #fff. .div {background:#fff} means that every element with a class of div will have the background become #fff 
+### div{background:#fff;} means that every div will have the background be #fff. 
+#div {background:#fff;} means that every element with an id of div will have the background become #fff. 
+.div {background:#fff} means that every element with a class of div will have the background become #fff 
 
 ## 7. What is the difference between these 2 uses of the <script> tag?
 <script src=”http://example.com/whatever.js”></script> <script>var whatever = true</script>
-### The first <script src"http...." > </script> means that 
+### The first <script src"http...." > </script> means that its linked to an html site, and the second </script> <script>var whatever = true</script> means tits inline scripting where you can write javascript 
+
+
+## 8. What is the difference between these two javascript snippets?
+
+`var x = function() { return 1+1;
+}();
+
+var y = function() { return 1+1;
+};`
+
+### x is a function where you can write x and get the answer, whileas for the y function it would need to be written as `y();` to get the answer
+
+
+# PRACTICAL 
+
+## 1. Write HTML/CSS to draw the following scene (inline css is fine if you want):
+a. One red box, 200x200 pixels
+b. One blue box, 200x200 pixels
+c. One green box, 100x100 pixels
+d. The green box should be centered inside the red box
+e. The red and blue boxes should not overlap
+
+
+
 
 
