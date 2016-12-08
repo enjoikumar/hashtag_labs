@@ -51,45 +51,15 @@ c. One green box, 100x100 pixels
 d. The green box should be centered inside the red box
 e. The red and blue boxes should not overlap
 
-On github, both html and css file
-<b><body>
-    <div class="red"> </div>
-    <br>
-    <div class="green"> </div>
-    <div class="blue"> </div>
+Both files are on Github
+[html](https://github.com/enjoikumar/hashtag_labs/blob/master/index.html)
+[css](https://github.com/enjoikumar/hashtag_labs/blob/master/styles.css)
 
-</body><b>
-
-<b>.red{
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    position: absolute;
-}
-
-.blue{
-    width: 200px;
-    height: 200px;
-    position: relative;
-    background-color: blue;
-    margin-top: 100px;
-}
-
-.green{
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    position: relative;
-    margin-right: 100%;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-top: 30px;
-}<b>
 
 
 #2. You have started an analytics company with the domain “hashtag­analytics.com”. You provide this tracking pixel for your customers to place on their websites. By summing the number of times the pixel was loaded, you calculate the number of visitors to each site.
 
-##<img src=”http://hashtag­analytics.com/12345/pixel.gif” width=”1” height=”1”/>
+## img src=”http://hashtag­analytics.com/12345/pixel.gif” width=”1” height=”1”
 ##As it stands, this pixel has a problem because it will be cached by the browser.
 
 ##a. Why is caching a problem for the analytics company?
@@ -118,6 +88,7 @@ Most likely the company can track the user's entire movement on the site. With e
 ­ ### If yes, write “visible” to the console (that is, window.console)
 ­ ### If no, do nothing
 ###** the image is “viewable” if any part of it appears on the screen (so if the image is entirely above or below the viewport, then the user cannot see it, so it is not considered “viewable”)
+[JavaScript](https://github.com/enjoikumar/hashtag_labs/blob/master/app.js)
 
 ```window.setInterval(function(){
     var windowTop = $(window).scrollTop();
