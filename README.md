@@ -30,7 +30,7 @@ div {background:#fff;} means that every element with an id of div will have the 
 
 ## 7. What is the difference between these 2 uses of the <script> tag?
 `<script src=”http://example.com/whatever.js”></script> <script>var whatever = true</script>`
-The first <script src"http...." > </script> means that its linked to an html site, and the second </script> <script>var whatever = true</script> means tits inline scripting where you can write javascript 
+The first <script src"http...." > </script> means that its linked to an html site, and the second </script> <script>var whatever = true</script> means its inline scripting where you can write javascript 
 
 
 ## 8. What is the difference between these two javascript snippets?
