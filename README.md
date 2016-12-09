@@ -67,8 +67,11 @@ Caching enables the browser to store the image temporarily, so like in the AJAX,
 
 ##b. How could you prevent browser caching? (use any technique(s) you want)
 At my time at GA we learned that we can provent browser caching by adding http headers. 
+
 `<meta http-equiv="Cache-Control" content="no-cache", no-store, must-revalidate />`
+
 `<meta http-equiv="Pragma" content="no-cache" />`
+
 `<meta http-equiv="Expires" content="0" />`
 
 ##c. What will happen if the customer’s website is served over HTTPS? How could you modify the tracking pixel to fix that?
